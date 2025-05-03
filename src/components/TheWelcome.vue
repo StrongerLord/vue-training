@@ -11,7 +11,7 @@ const increment = async () => {
   setTimeout(async () => {
     url.value = await fetchUrl()
     isLoading.value = false
-  }, 1000)
+  }, 500)
 }
 
 const fetchUrl = async () => {
@@ -19,7 +19,6 @@ const fetchUrl = async () => {
     `https://g.tenor.com/v1/search?q=excited&key=LIVDSRZULELA&limit=${count.value}`,
   )
   const data = await response.json()
-  console.log(data)
   return data.results[count.value - 1].media[0].gif.url
 }
 </script>
