@@ -23,7 +23,7 @@ const fetchUrl = async () => {
 }
 </script>
 <template>
-  <div class="flex flex-col lg:w-[20%] m-10 text-2xl space-y-3 w-[80%] items-center">
+  <div class="flex flex-col lg:w-[20%] p-10 text-2xl space-y-3 w-[80%] items-center">
     <h1 class="">Welcome to the app!</h1>
     <p>This is a simple Vue.js application.</p>
     <p>This is a counter app but using vue!</p>
