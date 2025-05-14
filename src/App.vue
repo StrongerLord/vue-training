@@ -42,7 +42,7 @@ const handleLogOut = () => {
       <img
         alt="Vue logo"
         class="w-8"
-        :src="userStore.isLoggedIn ? userStore.user.picture : '/src/assets/logo.svg'"
+        :src="userStore.isLoggedIn ? userStore.user.picture : 'logo.svg'"
       />
       <RouterLink to="/" class="hover:bg-green-900 hover:text-white transition-colors"
         >Random Gif</RouterLink
