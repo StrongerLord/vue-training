@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import { GoogleSignInButton } from 'vue3-google-signin'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
