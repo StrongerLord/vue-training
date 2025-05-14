@@ -1,12 +1,9 @@
 <script setup lang="ts">
 import { useGifStore } from '@/store/gifStore'
-import { useUserStore } from '@/store/userStore'
-const userStore = useUserStore()
 const store = useGifStore()
 
 const handleClick = () => {
   store.increment()
-  console.log(userStore.user)
 }
 </script>
 <template>
